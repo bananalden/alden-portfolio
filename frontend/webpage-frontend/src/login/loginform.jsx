@@ -1,16 +1,21 @@
 function loginForm (){
     return(
-        <div>
+        <div className="main">
+            <h2>Welcome to Alden's Portfolio!</h2>
+            <p>To view, please log in!</p>
+        <div className="loginform">
             <form action="" method="post">
-            <h1>Log In</h1>
-            <label>Username:</label>
+            <h3>Log In</h3>
+            <label>Username:
             <input type="text" name="" id="" />
-            <label>Password:</label>
+            </label>
+            <label>Password:
             <input type="password" name="" id="" />
+            </label>
             <button type="submit">Log In</button>
             </form>
         </div>
-
+    </div>
 
     );
 
