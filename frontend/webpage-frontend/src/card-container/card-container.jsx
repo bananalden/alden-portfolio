@@ -16,7 +16,7 @@ function card_container(){
             <img className="pfImage"src={image} alt="Profile Image" />
             </Col>
             <Col>
-            <Container className='description'>
+            <Container className='description m-5'>
                 <h1 className='welcomeLand'>Hello! Welcome!</h1>
                 <p>My name is Alden ███████ ██████, I'm an up and coming
                    IT practitioner mostly speciliazing in Back-End development! 

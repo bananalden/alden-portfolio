@@ -22,9 +22,9 @@ function resume(){
         </Col>
       
         <Col>
-        <div className='subBack'>
-        <h1>Alden Justine Flores</h1>
-        <p>CONTACT NO: +63279139389</p>
+        <div className='subBack m-3'>
+        <h1>Alden ███████ ██████</h1>
+        <p>CONTACT NO: +63███████</p>
         <hr></hr>
         <Accordion>
       <Accordion.Item eventKey="0">
