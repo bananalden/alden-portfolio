@@ -1,1 +1,1 @@
-This is a personal webpage made as a way to demonstrate my portfolio and to also test my ability to utilize frontend and backend frameowrks
+This project is my way to practice ReactJS and as part of a way to build my portfolio
