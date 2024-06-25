@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import image from '../assets/ayanagrin.png'
 import * as Icon from 'react-bootstrap-icons';
-import { Fade } from 'react-bootstrap'
+
 
 
 function card_container(){
@@ -16,14 +16,14 @@ function card_container(){
             <img className="pfImage"src={image} alt="Profile Image" />
             </Col>
             <Col>
-            <Container>
-                <h1 className='welcomeLand'>Hello! Welcome to my webpage!</h1>
+            <Container className='description'>
+                <h1 className='welcomeLand'>Hello! Welcome!</h1>
                 <p>My name is Alden ███████ ██████, I'm an up and coming
                    IT practitioner mostly speciliazing in Back-End development! 
                 </p>
                 <p>Want to learn more? Visit my <a href="/about">about me!</a></p>
                 <hr></hr>
-                <Container>
+                <Container className='bottomDesc'>
                     <h4>Visit my associated links!</h4>
                     <div className="iconContainer">
                     <a href="https://www.linkedin.com/in/alden-justine-flores-32b8bb27b/">

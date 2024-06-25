@@ -1,41 +1,52 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Accordion from 'react-bootstrap/Accordion';
-
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import selfImage from '../assets/elvergil.jpg';
 
 function resume(){
 
     return(
 
-<Container>
-         <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+<Container className="m-5 backDrop">
+       <Row>
+        <Col>
+        <Container className='m-4'>
+          <img className="selfImage" src={selfImage} alt="selfImage" />
+        </Container>
+          <div className='subBack'>
+            <h3>Career Objectives:</h3>
+            <p>I wish to understand and improve the ever-changing technologies and techniques of developing web applicaitons.</p>
+          </div>
+        </Col>
       
-    </Container>
+        <Col>
+        <div className='subBack'>
+        <h1>Alden Justine Flores</h1>
+        <p>CONTACT NO: +63279139389</p>
+        <hr></hr>
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>HTML skills</li>
+          <li>JavaScript skills</li>
+          <li>PHP skills</li>
+          <li>MS Office skills</li>
+          <li>ReactJS Skills</li>
+        </ul>
+        <hr></hr>
+        <h3>Miscalleneous Skills</h3>
+        <ul>
+          <li>HTML skills</li>
+          <li>JavaScript skills</li>
+          <li>PHP skills</li>
+          <li>MS Office skills</li>
+          <li>ReactJS Skills</li>
+        </ul>
+        </div>
+        </Col> 
+        </Row>
+</Container>
 
 
   

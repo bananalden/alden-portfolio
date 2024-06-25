@@ -1,12 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+
+
+
 .myContainer {
 
     border: solid 1px black;
-    box-shadow: 5px 5px 15px #0E2954;
+    box-shadow: 5px 5px 15px #7FC7D9;
     padding: 10%;
     margin-top: 40px;
     border-radius: 20px;
     animation: fade-in 1s;
-    background-color: #2E8A99;
+    background-color: #7FC7D9;
 }
 @keyframes fade-in {
     from {
@@ -17,12 +24,26 @@
     }
   }
 
+.description p{
+    font-family: 'Sofia Sans';
+}
+
+.description h1{
+    font-family: 'Sofia Sans';
+    font-weight: 750;
+}
+
+.bottomDesc h4{
+    font-family: 'Sofia Sans';
+    font-weight: 750;
+}
+
 .myContent {
     margin: 20px;
 }
 
 .welcomeLand{
-    text-align: center;
+    text-align: left;
 }
 
 .pfImage{
@@ -32,6 +53,7 @@
     max-width: 500px;
     height: auto;
     width: auto;
+    background-color: aliceblue;
 }
 
 .iconContainer{
@@ -42,15 +64,39 @@
 
 .iconContainer a{
     text-decoration: none;
-    color:#333A73;
+    color:#27374D;
 }
 
 .iconContainer a:hover{
-    color: #387ADF;
+    color: #526D82;
     transition: 0.5s ease;
 
 }
 
+.backDrop {
+    background-color: #7FC7D9;
+    padding: 2%;
+    border-radius: 10px;
+    border: solid black 1px;
+    animation: fade-in 1s;
+}
+
+.selfImage {
+    border-radius: 10px;
+    max-height: 300px;
+    height: 300px;
+    margin-left: 150px;
+    border: solid black 1px;
+}
+
+.subBack{
+    background-color: aliceblue;
+    padding: 2.5%;
+    border-radius: 10px;
+    border: solid black 1px;
+
+}
+
 body{
-    background-color: #84A7A1;
+    background-color: #DCF2F1;
 }
