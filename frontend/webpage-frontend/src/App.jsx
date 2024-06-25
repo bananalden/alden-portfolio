@@ -6,7 +6,7 @@ import Navbar from './navbar/navbar.jsx'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //THESE ARE PAGE ROUTES
-import Mainpage from './routes/mainpage.jsx';
+import Resume from './routes/resume.jsx';
 import About from './routes/about.jsx';
 import Card from './card-container/card-container.jsx';
 //THESE ARE BOOTSTRAP COMPONENTS
@@ -28,7 +28,7 @@ function App() {
     <Navbar />
       <Routes>
         <Route path='/' element = {<Card /> }></Route>
-        <Route path='/mainpage' element = {<Mainpage /> }></Route>
+        <Route path='/resume' element = {<Resume /> }></Route>
         <Route path="/about" element = { <About /> }></Route>
       </Routes>
     

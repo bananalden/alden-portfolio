@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Accordion from 'react-bootstrap/Accordion';
 
 
-function mainpage(){
+function resume(){
 
     return(
 
@@ -44,4 +44,4 @@ function mainpage(){
     )
 }
 
-export default mainpage;
+export default resume;
