@@ -3,6 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 //THESE ARE COMPONENTS
 import Navbar from './navbar/navbar.jsx'
+import Footer from './footer/footer.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //THESE ARE PAGE ROUTES
 import Mainpage from './routes/mainpage.jsx';
@@ -25,21 +26,16 @@ function App() {
     <div className='App'>
     <Navbar />
       <Routes>
-        <Route exact path='/mainpage' component = {<Mainpage /> }></Route>
-        <Route exact path="/about" component = { <About /> }></Route>
+      <Route path='/' element = {<Card /> }></Route>
+        <Route path='/mainpage' element = {<Mainpage /> }></Route>
+        <Route path="/about" element = { <About /> }></Route>
       </Routes>
     
     </div>
     </BrowserRouter>
     </Col>
     </Row>
-    <Row>
-      <Col>
-      <Container>
-        <Card></Card>
-      </Container>
-      </Col>
-    </Row>
+
     </Container>
     </>
   )
