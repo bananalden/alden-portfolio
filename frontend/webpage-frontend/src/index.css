@@ -1,11 +1,12 @@
 .myContainer {
 
     border: solid 1px black;
-    box-shadow: 5px 5px 15px grey;
+    box-shadow: 5px 5px 15px #0E2954;
     padding: 10%;
     margin-top: 40px;
     border-radius: 20px;
     animation: fade-in 1s;
+    background-color: #2E8A99;
 }
 @keyframes fade-in {
     from {
@@ -48,4 +49,8 @@
     color: #387ADF;
     transition: 0.5s ease;
 
+}
+
+body{
+    background-color: #84A7A1;
 }
