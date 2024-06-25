@@ -26,6 +26,7 @@ function resume(){
         <h1>Alden ███████ ██████</h1>
         <p>CONTACT NO: +63███████</p>
         <hr></hr>
+      <div className="resumeInfo">
         <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Biodata</Accordion.Header>
@@ -77,6 +78,7 @@ function resume(){
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </div>
         </div>
         </Col> 
         </Row>

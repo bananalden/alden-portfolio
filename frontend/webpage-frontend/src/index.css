@@ -1,9 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
+.myNav{
+    font-family: 'Sofia Sans';
+}
+
+.subBack h3{
+    font-family: 'Sofia Sans';
+}
+
+.subBack h1{
+    font-family: 'Sofia Sans';
+    font-weight: 800;
+}
 
 
-
+.resumeInfo {
+    font-family: 'Sofia Sans';
+}
 
 .myContainer {
 
