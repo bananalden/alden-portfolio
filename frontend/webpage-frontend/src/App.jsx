@@ -3,7 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 //THESE ARE COMPONENTS
 import Navbar from './navbar/navbar.jsx'
-import Footer from './footer/footer.jsx'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //THESE ARE PAGE ROUTES
 import Mainpage from './routes/mainpage.jsx';
