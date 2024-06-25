@@ -3,11 +3,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import image from '../assets/ayanagrin.png'
 import * as Icon from 'react-bootstrap-icons';
+import { Fade } from 'react-bootstrap'
 
 
 function card_container(){
     return (
-
+   
     <div className="container myContainer">
      <Container>
         <Row>
