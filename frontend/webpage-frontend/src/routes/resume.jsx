@@ -26,23 +26,49 @@ function resume(){
         <h1>Alden Justine Flores</h1>
         <p>CONTACT NO: +63279139389</p>
         <hr></hr>
-        <h3>Technical Skills</h3>
+        <Accordion>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Biodata</Accordion.Header>
+        <Accordion.Body>
+        <strong>Height:  </strong>   5'6<br />
+        <strong>Sex:     </strong>   Male<br />
+        <strong>Age:     </strong>   23<br />
+        <strong>Birthdate:     </strong>   February 6, 2001<br />
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Technical Skills</Accordion.Header>
+        <Accordion.Body>
+          <ul>
+            <li>HTML Skills</li>
+            <li>JavaScript Skills</li>
+            <li>PHP Skills</li>
+            <li>ReactJS Skills</li>
+            <li>Microsoft Office Skills</li>
+          </ul>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>Miscallaneous Skills</Accordion.Header>
+        <Accordion.Body>
         <ul>
-          <li>HTML skills</li>
-          <li>JavaScript skills</li>
-          <li>PHP skills</li>
-          <li>MS Office skills</li>
-          <li>ReactJS Skills</li>
-        </ul>
-        <hr></hr>
-        <h3>Miscalleneous Skills</h3>
-        <ul>
-          <li>HTML skills</li>
-          <li>JavaScript skills</li>
-          <li>PHP skills</li>
-          <li>MS Office skills</li>
-          <li>ReactJS Skills</li>
-        </ul>
+            <li>English Speaking Skills</li>
+          </ul>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>Character References</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
         </div>
         </Col> 
         </Row>
