@@ -25,7 +25,7 @@ function card_container(){
                 <hr></hr>
                 <Container>
                     <h4>Visit my associated links!</h4>
-                    <div className="container iconContainer">
+                    <div className="iconContainer">
                     <a href="https://www.linkedin.com/in/alden-justine-flores-32b8bb27b/">
                     <Icon.Linkedin size={50} />
                     </a>
