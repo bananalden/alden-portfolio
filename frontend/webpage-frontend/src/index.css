@@ -1,0 +1,15 @@
+.myContainer {
+
+    border: solid 1px black;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.myContent {
+    margin: 50px;
+    text-align: right;    
+}
+
+.pfImage{
+    float: left;
+    border-radius: 50%;
+}
