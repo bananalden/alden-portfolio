@@ -20,8 +20,8 @@
     margin: 20px;
 }
 
-.description{
-    text-align: right;
+.welcomeLand{
+    text-align: center;
 }
 
 .pfImage{
@@ -29,6 +29,8 @@
     border-radius: 10px;
     max-height: 500px;
     max-width: 500px;
+    height: auto;
+    width: auto;
 }
 
 .iconContainer{

@@ -17,7 +17,7 @@ function card_container(){
             </Col>
             <Col>
             <Container>
-                <h1>Hello! Welcome to my webpage!</h1>
+                <h1 className='welcomeLand'>Hello! Welcome to my webpage!</h1>
                 <p>My name is Alden ███████ ██████, I'm an up and coming
                    IT practitioner mostly speciliazing in Back-End development! 
                 </p>
@@ -32,6 +32,7 @@ function card_container(){
                     <a href="https://github.com/bananalden">
                     <Icon.Github size={50}/>
                     </a>
+                    
                     </div>
                 </Container>
             </Container>

@@ -11,6 +11,7 @@ function about(){
         <Container>
         <Row>
           <Col>aboutme</Col>
+          <Col>nevermind</Col>
         </Row>
       </Container>
            
