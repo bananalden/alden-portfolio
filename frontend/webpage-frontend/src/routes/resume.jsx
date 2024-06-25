@@ -57,6 +57,18 @@ function resume(){
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
+        <Accordion.Header>Education</Accordion.Header>
+        <Accordion.Body>
+          <strong>Centro Escolar Integrated School ███████</strong><br />
+          <i>Senior-High School</i><br />
+          <strong>Year Graduated: </strong>2019
+          <hr />
+          <strong>St. John the ███████ </strong><br />
+          <i>Junior-High School</i><br />
+          <strong>Year Graduated: </strong>2017
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="4">
         <Accordion.Header>Character References</Accordion.Header>
         <Accordion.Body>
           <hr />
