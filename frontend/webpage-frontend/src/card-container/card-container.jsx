@@ -8,7 +8,7 @@ import * as Icon from 'react-bootstrap-icons';
 
 function card_container(){
     return (
-   
+
     <div className="container myContainer">
      <Container>
         <Row>
@@ -38,10 +38,12 @@ function card_container(){
             </Container>
             </Col>
         </Row>
+        
      </Container>
      
     </div>
-
+  
+   
     );
 
 

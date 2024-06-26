@@ -6,6 +6,7 @@ import Navbar from './navbar/navbar.jsx'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //THESE ARE PAGE ROUTES
+import LandAbout from './card-container/landing-aboutme.jsx';
 import Resume from './routes/resume.jsx';
 import About from './routes/about.jsx';
 import Card from './card-container/card-container.jsx';
@@ -27,7 +28,12 @@ function App() {
     <div className='App'>
     <Navbar />
       <Routes>
-        <Route path='/' element = {<Card /> }></Route>
+        <Route path='/' element = {
+          <>
+          <Card /> 
+          <LandAbout />
+          </>
+          }></Route>
         <Route path='/resume' element = {<Resume /> }></Route>
         <Route path="/about" element = { <About /> }></Route>
       </Routes>
