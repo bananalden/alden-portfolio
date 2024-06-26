@@ -15,6 +15,12 @@
 
 }
 
+
+.portfolioContainer {
+    background-color: black;
+    border-color: solid 2px black;
+}
+
 .portraitAbout{
     max-width: 100%;
     width: auto;
@@ -118,9 +124,6 @@
 
 }
 
-.portfolioContainer {
-    background-color: black;
-}
 
 body{
     background-color: #DCF2F1;

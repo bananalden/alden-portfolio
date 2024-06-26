@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandAbout from './card-container/landing-aboutme.jsx';
 import Resume from './routes/resume.jsx';
 import About from './routes/about.jsx';
+import Portfolio from './routes/portfolio.jsx';
 import Card from './card-container/card-container.jsx';
 //THESE ARE BOOTSTRAP COMPONENTS
 import Container from 'react-bootstrap/Container';
@@ -36,6 +37,7 @@ function App() {
           }></Route>
         <Route path='/resume' element = {<Resume /> }></Route>
         <Route path="/about" element = { <About /> }></Route>
+        <Route path="/portfolio" element = { <Portfolio /> }></Route>
       </Routes>
     
     </div>

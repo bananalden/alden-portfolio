@@ -1,15 +1,23 @@
+import React from "react";
 import Container from "react-bootstrap/esm/Container";
-import portfolioSample from "../assets/portfolioCard/aldenWebpage.png"
+import PortfolioSample from "../assets/portfolioCard/aldenWebpage.png"
 import Button from "react-bootstrap/esm/Button";
+import Card from "react-bootstrap/Card";
 
 function portfolioCard (){
 
     return(
-        <Container className="portfolioContainer">
-            <Button className="btn-primary">Button</Button>
-        </Container>
+       
+        <Card style={{ width: '18rem'}}>
+        <Card.Header>Penis</Card.Header>
+            <Card.Img variant="top" src={PortfolioSample} />
+            <Card.Body>
+                <Card.Title>Hello Charlie!</Card.Title>
+                <Card.Text>Hello what's up!</Card.Text>
+            </Card.Body>
+    </Card>
     );
 
 }
 
-export default portfolioCard
+export default portfolioCard;
