@@ -12,8 +12,15 @@
 .subBack h1{
     font-family: 'Sofia Sans';
     font-weight: 800;
+
 }
 
+.portraitAbout{
+    max-width: 100%;
+    width: auto;
+    border: solid 1px black;
+    border-radius: 5%;
+}
 
 .resumeInfo {
     font-family: 'Sofia Sans';

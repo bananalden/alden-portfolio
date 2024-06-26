@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import image from '../assets/ayanagrin.png'
+import image from '../assets/aldenLanding.png'
 import * as Icon from 'react-bootstrap-icons';
 
 
