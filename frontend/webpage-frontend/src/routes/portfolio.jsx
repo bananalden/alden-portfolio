@@ -16,7 +16,7 @@ function portfolio (){
             <h1>Portfolio</h1>
             <Container className="subBack">
                 <h1>PHP Projects</h1>
-            <div className="d-inline-flex">
+            <div className="d-md-flex">
                 <PortfolioCard 
             systemsample = { LibrarySystem }
             title = "Library System in Collaboration with MJ"

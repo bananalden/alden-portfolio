@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Accordion from 'react-bootstrap/Accordion';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import selfImage from '../assets/elvergil.jpg';
+import selfImage from '../assets/2x2.png';
 
 function resume(){
 

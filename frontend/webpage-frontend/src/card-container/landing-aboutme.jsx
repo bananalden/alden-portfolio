@@ -13,8 +13,7 @@ function landingAbout (){
     <div className="myContainer">
         <h1>Portfolio Preview!</h1>
         <Container className="subBack">
-        <Container className="d-md-inline-flex">
-
+        <div className="d-md-flex">
            <PortfolioCard 
            systemsample = { Portfolio }
            title = "My Portfolio in ReactJS"
@@ -31,13 +30,14 @@ function landingAbout (){
            systemsample = { Timein }
            title = "Employee Time In System in Colllaboration with MJ"
            description = "An employee clock-in system created in fulfillment of our requirements during 3rd year 1st Semester"
-
            />
+        </div>
+       
+        <Container className='m-3 float-md-right' >
+        <Button className='btn-info'>Click here to see more!</Button>
         </Container>
-        <Container >
-            <Button className='btn-primary'>Penis</Button>
         </Container>
-        </Container>
+        
     </div>
 
     );

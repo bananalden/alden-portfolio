@@ -114,6 +114,7 @@
     height: 300px;
     margin-left: 150px;
     border: solid black 1px;
+    background-color: aliceblue;
 }
 
 .subBack{
@@ -127,4 +128,8 @@
 
 body{
     background-color: #DCF2F1;
+}
+
+.d-md-flex {
+    gap: 1%;
 }
