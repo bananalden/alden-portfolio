@@ -1,20 +1,19 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
-import PortfolioSample from "../assets/portfolioCard/aldenWebpage.png"
+
 import Button from "react-bootstrap/esm/Button";
 import Card from "react-bootstrap/Card";
 
-function portfolioCard (){
-
+function portfolioCard (props){
     return(
        
         <Card style={{ width: '18rem'}}>
-        <Card.Header>Penis</Card.Header>
-            <Card.Img variant="top" src={PortfolioSample} />
+            <Card.Img variant="top" src={props.systemsample} />
             <Card.Body>
-                <Card.Title>Hello Charlie!</Card.Title>
-                <Card.Text>Hello what's up!</Card.Text>
+                <Card.Title>{props.title}</Card.Title>
+                <Card.Text>{props.description}</Card.Text>
             </Card.Body>
+            <Button className="btn-primary">Preview</Button>
     </Card>
     );
 
