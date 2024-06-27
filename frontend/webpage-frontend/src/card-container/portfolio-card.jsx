@@ -15,7 +15,11 @@ function portfolioCard (props){
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
             </Card.Body>
-            <Preview />
+            <Preview 
+            title = {props.title}
+            bigDesc = {props.bigDesc}
+
+            />
     </Card>
     
   
