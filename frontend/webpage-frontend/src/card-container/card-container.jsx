@@ -34,7 +34,9 @@ function card_container(){
                     </a>
                     
                     </div>
+                    
                 </Container>
+                
             </Container>
             </Col>
         </Row>

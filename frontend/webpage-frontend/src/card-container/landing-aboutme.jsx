@@ -26,18 +26,19 @@ function landingAbout (){
             title = "Library System in Collaboration with MJ"
             description = "A library system that was designed in submission for our finals."
            />
+
            <PortfolioCard 
            systemsample = { Timein }
            title = "Employee Time In System in Colllaboration with MJ"
            description = "An employee clock-in system created in fulfillment of our requirements during 3rd year 1st Semester"
            />
         </div>
-       
-        <Container className='m-3 float-md-right' >
-        <Button className='btn-info'>Click here to see more!</Button>
-        </Container>
-        </Container>
+        <div className='float-right' >
+        <a href="/portfolio" className="seePort">Click here to see more!</a>
+        </div>
         
+        </Container>
+     
     </div>
 
     );
