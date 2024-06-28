@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from "react-bootstrap/esm/Container";
 import PortfolioCard from '../card-container/portfolio-card.jsx';
-import Button from "react-bootstrap/esm/Button";
 //Image Imports
 import Portfolio from "../assets/portfolioCard/aldenWebpage.png";
 import LibrarySystem from "../assets/portfolioCard/aldenLibrarysystem.png";
@@ -13,6 +12,10 @@ import LibSystem3 from '../assets/imagesforPortfolio/phpProjects/librarySystem/l
 import TimeIn1 from '../assets/imagesforPortfolio/phpProjects/employeeAttendance/employeeAttendance1.png';
 import TimeIn2 from '../assets/imagesforPortfolio/phpProjects/employeeAttendance/employeeAttendance2.png';
 import TimeIn3 from '../assets/imagesforPortfolio/phpProjects/employeeAttendance/employeeAttendance3.png';
+import RProj1 from '../assets/imagesforPortfolio/reactProjects/reactProject1.png'
+import RProj2 from '../assets/imagesforPortfolio/reactProjects/reactProject2.png'
+import RProj3 from '../assets/imagesforPortfolio/reactProjects/reactProject3.png'
+
 
 function landingAbout (){
 
@@ -26,7 +29,12 @@ function landingAbout (){
            title = "My Portfolio in ReactJS"
            description = "This is a portfolio I designed using ReactJS and Bootstrap Components."
            bigDesc = "This portfolio was designed with the sole purpose of not just designing a portfolio, but also to study ReactJS and to test myself un UI/UX elements"
-
+           carImage1 = { RProj1 }
+           carImage2 = { RProj2 }
+           carImage3 = { RProj3 }
+           carCap1 = "A page displaying my resume information"
+           carCap2 = "A short page the describes me"
+           carCap3 = "The landing page"
 
            />
 
