@@ -133,3 +133,8 @@ body{
 .d-md-flex {
     gap: 1%;
 }
+
+.imageCarousel {
+    max-width: 105%;
+    height: auto;
+}

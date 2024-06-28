@@ -6,6 +6,10 @@ import Container from "react-bootstrap/esm/Container";
 import Portfolio from "../assets/portfolioCard/aldenWebpage.png";
 import LibrarySystem from "../assets/portfolioCard/aldenLibrarysystem.png";
 import Timein from "../assets/portfolioCard/aldenTimeinsystem.png";
+//Modal Image Imports
+import LibSystem1 from '../assets/imagesforPortfolio/phpProjects/librarySystem/library1.png'
+import LibSystem2 from '../assets/imagesforPortfolio/phpProjects/librarySystem/library2.png'
+import LibSystem3 from '../assets/imagesforPortfolio/phpProjects/librarySystem/library3.png'
 
 
 
@@ -17,19 +21,18 @@ function portfolio (){
             <Container className="subBack">
                 <h1>PHP Projects</h1>
             <div className="d-md-flex">
-                <PortfolioCard 
+            <PortfolioCard 
             systemsample = { LibrarySystem }
             title = "Library System in Collaboration with MJ"
             description = "A library system that was designed in submission for our finals."
             bigDesc = "This Library System, while still technically within the Alpha stages of development, is one of the first PHP projects I have made where I utilized PHP and Bootstrap for UI elements. The other adjustments were made by my classmate MJ who helped add other elements such as the Navbar while I handled most of the backend processes."
-            
-           />
-           <PortfolioCard 
-           systemsample = { Timein }
-           title = "Employee Time In System in Colllaboration with MJ"
-           description = "An employee clock-in system created in fulfillment of our requirements during 3rd year 1st Semester"
-           bigDesc = "This was the first system I made with MJ. Completely raw with no libraries to work with, me and MJ worked on everything from the ground up from the UI elements to the backend logic"
-
+            carImage1 = { LibSystem1 }
+            carImage2 = { LibSystem2 }
+            carImage3 = { LibSystem3 }
+            carCap1 = "The login form of our page"
+            carCap2 = "The main page was designed by MJ"
+            carCap3 = "This is the inventory list of the books available to borrow"
+           
            />
            </div>
             </Container>

@@ -18,6 +18,12 @@ function portfolioCard (props){
             <Preview 
             title = {props.title}
             bigDesc = {props.bigDesc}
+            carImage1 = {props.carImage1}
+            carImage2 = {props.carImage2}
+            carImage3 = {props.carImage3}
+            carCap1 = {props.carCap1}
+            carCap2 = {props.carCap2}
+            carCap3 = {props.carCap3}
 
             />
     </Card>
