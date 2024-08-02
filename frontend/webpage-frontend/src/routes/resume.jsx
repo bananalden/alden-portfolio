@@ -23,8 +23,8 @@ function resume(){
       
         <Col>
         <div className='subBack m-3'>
-        <h1>Alden ███████ ██████</h1>
-        <p>CONTACT NO: +63███████</p>
+        <h1>Alden Justine Flores</h1>
+        <p>CONTACT NO: +63 927 913 9389</p>
         <hr></hr>
       <div className="resumeInfo">
         <Accordion>

@@ -18,7 +18,7 @@ function card_container(){
             <Col>
             <Container className='description m-5'>
                 <h1 className='welcomeLand'>Hello! Welcome!</h1>
-                <p>My name is Alden ███████ ██████, I'm an up and coming
+                <p>My name is Alden Justine Flores, I'm an up and coming
                    IT practitioner mostly speciliazing in Back-End development! 
                 </p>
                 <p>Want to learn more? Visit my <a href="/about">about me!</a></p>
